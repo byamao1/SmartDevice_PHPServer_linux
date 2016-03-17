@@ -1,13 +1,12 @@
-workerman-chat
+SmartDevice-PHPServer-Linux
 =======
-基于workerman的GatewayWorker框架开发的一款高性能支持分布式部署的聊天室系统。
+在workerman的一款高性能支持分布式部署的聊天室系统的基础上，开发出具备注册、登录、发消息、下线功能的服务器软件。
 
 GatewayWorker框架文档：http://www.workerman.net/gatewaydoc/
 
  特性
 ======
- * 使用websocket协议
- * 多浏览器支持（浏览器支持html5或者flash任意一种即可）
+ * 使用TCP协议
  * 多房间支持
  * 私聊支持
  * 掉线自动重连
